@@ -1,0 +1,17 @@
+# Terraform
+Eks-terraform/.terraform/
+Eks-terraform/*.tfstate
+Eks-terraform/*.tfstate.backup
+Eks-terraform/*.swp
+Eks-terraform/.terraform.lock.hcl
+
+# Node
+node_modules/
+venv/
+
+# Runner
+actions-runner/
+
+# Misc
+*.log
+.env
