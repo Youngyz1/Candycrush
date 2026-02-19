@@ -1,0 +1,12 @@
+prometheus:
+  service:
+    type: LoadBalancer
+
+grafana:
+  service:
+    type: LoadBalancer
+  adminPassword: "admin123"
+
+alertmanager:
+  service:
+    type: LoadBalancer
